@@ -29,7 +29,6 @@ namespace kaldi {
 		int32 ParseInit(int argc, char* argv[]);
 		int32 LoadAM();
 		int32 ParseStart(Vector<BaseFloat> wave_part);
-		int32 ParseStart(int32 read_len);
 		int32 ParseStop();
 
 	public:

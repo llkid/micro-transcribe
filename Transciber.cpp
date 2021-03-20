@@ -193,15 +193,6 @@ namespace kaldi {
 		return 1;
 	}
 
-	int32 Transcriber::ParseStart(int32 read_len)
-	{
-		static int32 has_read = 0;
-
-		if (read_len);
-
-		return int32();
-	}
-
 	int32 Transcriber::ParseStop()
 	{
 		try

@@ -47,7 +47,6 @@ namespace kaldi {
 	public:
 		using TranscriberPtr = std::unique_ptr<Transcriber>;
 		TranscriberPtr transcriber;
-		int chunk_len;
 
 	public:
 		explicit RecordUtil();

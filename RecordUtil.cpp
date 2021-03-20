@@ -39,7 +39,7 @@ namespace kaldi {
 	RecordUtil::~RecordUtil()
 	{
 		data_fro.FreeBuf();
-		data_fro.FreeBuf();
+		data_dst.FreeBuf();
 	}
 
 	int32 RecordUtil::parseInit(int argc, char* argv[])
